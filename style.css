@@ -121,6 +121,10 @@ p {
 
 }
 
+	.blocks {
+		margin-bottom: 20vh;
+	}
+
 	.block-one, .block-two, .block-three, .block-four {
 		width: 350px;
 		height: 40vh;
