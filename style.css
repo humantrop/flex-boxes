@@ -1,0 +1,117 @@
+/* Page CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	background: #fafafa;
+}
+
+main {
+	height: 90vh;
+}
+
+h1, h2, h3, p {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+}
+
+.content {
+	width: 90%;
+	margin: auto;
+}
+
+.headline {
+	text-align: center;
+	margin: 2% 0px 2% 0px;
+}
+
+.blocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-one  {
+	margin: 15px;
+	padding: 25px;
+	width: 300px;
+	background: #fff;
+	height: 25vh;
+	border-top: 2px solid hsl(180, 62%, 55%);
+	filter: drop-shadow(0 0 5px rgba(0,0,0, 0.3));
+	border-radius: 5px;
+	
+}
+
+.block-two {
+	margin: 15px;
+	padding: 25px;
+	width: 300px;
+	background: #fff;
+	height: 25vh;
+	border-top: 2px solid hsl(0, 78%, 62%);
+	filter: drop-shadow(0 0 5px rgba(0,0,0, 0.3));
+	border-radius: 5px;
+}
+
+.block-three {
+	margin: 15px;
+	padding: 25px;
+	width: 300px;
+	background: #fff;
+	height: 25vh;
+	border-top: 2px solid hsl(34, 97%, 64%);
+	filter: drop-shadow(0 0 5px rgba(0,0,0, 0.3));
+	border-radius: 5px;
+}
+
+.block-four {
+	margin: 15px;
+	padding: 25px;
+	width: 300px;
+	background: #fff;
+	height: 25vh;
+	border-top: 2px solid hsl(212, 86%, 64%);
+	filter: drop-shadow(0 0 5px rgba(0,0,0, 0.3));
+	border-radius: 5px;
+}
+
+.icon-img {
+	position: absolute;
+    bottom: 30px;
+    right: 30px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+
+/* Media */
+
+@media screen and (max-width: 981px) {
+	.blocks {
+	display: flex;
+	flex-direction: column;
+}
+}
