@@ -109,9 +109,29 @@ p {
 
 /* Media */
 
-@media screen and (max-width: 981px) {
+@media screen and (max-width: 976px) {
 	.blocks {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	}
+
+	.headline {
+    margin: 10% 0px 2% 0px;
+
 }
+
+	.block-one, .block-two, .block-three, .block-four {
+		width: 350px;
+		height: 40vh;
+		margin: 15px 0px;
+	}
+
+	.block-two {
+    margin-bottom: 30px;
+}
+
+
+
+
 }
